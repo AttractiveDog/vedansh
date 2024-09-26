@@ -1,0 +1,46 @@
+{
+  "homepage": "https://vedansh.vercel.app",
+  "name": "portfolio_website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "ityped": "^1.0.3",
+    "pts": "^0.12.9",
+    "react": "^18.3.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "scroll-to-element": "^2.0.3",
+    "three": "^0.124.0",
+    "yarn": "^1.22.22"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
