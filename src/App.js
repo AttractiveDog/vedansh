@@ -48,7 +48,7 @@ export default class App extends React.Component {
         {
             name: 'Instagram',
             icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>,
-            link: 'https://www.instagram.com/'
+            link: 'https://www.instagram.com/wwvedansh'
         },
         {
             name: 'GitHub',
@@ -97,80 +97,49 @@ export default class App extends React.Component {
 
     projects = [ 
         {
-            title: 'Messaging Website',
+            title: 'Raspberry Pi CCTV System',
             image: [require('./media/img.png')],
-            gif: require('./media/img.png'),
-            desc: 'This project first project with React Js and firebase. I was learning plain',
-            more: 'https://messaz-6a603.web.app',
+            desc: 'A complete CCTV streaming solution using USB cameras with Python backend server and React Native mobile app for live viewing.',
+            more: 'https://github.com/AttractiveDog/rpi-cctv',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
-            tech: ['ReactJS', 'Firebase']
+            tech: ['python', 'react native', 'javascript', 'opencv', 'expo']
         },
         {
-            title: 'E-commercerce',
+            title: 'BEET - Virtual Microphone',
             image: [require('./media/img.png')],
-            desc: 'This is the project was most complex project ever in my life till now. It is a fully useable website with payment integration using stipe',
-            more: 'https://codeshopr.netlify.com',
+            desc: 'A virtual microphone and audio GUI system with Google Meet automation capabilities for TTS/STT features.',
+            more: 'https://github.com/AttractiveDog/BEET',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
-            tech: ['ReactJS', 'Firebase', 'Stripe']
+            tech: ['python', 'node.js', 'javascript', 'audio processing', 'automation']
         },
         {
-            title: 'Video Confrence Website',
-            image: [require('./media/img.png'), require('./media/img.png'), require('./media/img.png')],
-            desc: 'It was too frustating project but I completed it somehow. It is made by ReactJS and ExpressJS',
-            more: 'https://github.com/AttractiveDog/eqeduquanta',
+            title: 'RAG LLM Chat App',
+            image: [require('./media/img.png')],
+            desc: 'A Retrieval-Augmented Generation (RAG) based chat application using Large Language Models for intelligent conversations.',
+            more: 'https://github.com/AttractiveDog/rag-llm-chat-app',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
-            tech: ['ReactJS', 'expressJS', 'javascript', 'nodeJS']
+            tech: ['python', 'llm', 'rag', 'machine learning', 'chatbot']
         },
         {
-            title: 'Social Media',
-            image: [require('./media/img.png'), require('./media/img.png'), require('./media/img.png')],
-            desc: 'It was a piece of cake for me but sometime it got stuck. But it work very effeciently.',
-            more: 'https://socialcode.vercel.app/',
-            link_title: this.project_icons['mail'].link_title,
-            icon: this.project_icons['mail'].icon,
-            tech: ['ReactJS', 'expressJS', 'javascript', 'nodeJS']
-        },
-        {
-            title: 'Twitter Clone',
+            title: 'Drowsiness Detection',
             image: [require('./media/img.png')],
-            desc: 'This project was a time taking but the final result is ver good. People can actually use this for daily purpose.',
-            more: 'https://twitter-test1.vercel.app/',
-            link_title: this.project_icons['mail'].link_title,
-            icon: this.project_icons['mail'].icon,
-            tech: ['ReactJS', 'expressJS', 'javascript', 'nodeJS']
-        },
-        {
-            title: 'Hao! | 1:1 Chatting',
-            image: [require('./media/img.png')],
-            desc: 'I have already made a chatting website but it wasent 1:1. But now it is completed.',
-            more: 'https://hao-omega.vercel.app/',
+            desc: 'A computer vision system for detecting driver drowsiness using facial recognition and eye tracking technology.',
+            more: 'https://github.com/AttractiveDog/drowsinessDection',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
-            tech: ['nextJS', 'expressJS', 'javascript', 'nodeJS', 'Firebase']
-
+            tech: ['python', 'opencv', 'computer vision', 'facial recognition', 'dlib']
         },
         {
-            title: 'FPS Shooter!',
+            title: 'ML Phishing Detection Model',
             image: [require('./media/img.png')],
-            desc: 'This is the project was not of my busniess but when I started it attracted me and I am loving it a lot',
-            more: 'https://youtu.be/bFb7hCHSPtE',
-            link_title: this.project_icons['mail'].link_title,
-            icon: this.project_icons['mail'].icon,
-            tech: ['unity', 'C#']
-
-        },
-        {
-            title: 'Video confrencening 2.0',
-            image: [require('./media/img.png')],
-            desc: ' It took a lot of time to ehnance and add more functionality to its predecessor. Made with Next.Js',
-            more: 'https://mediacall.vercel.app/',
+            desc: 'A machine learning model for detecting phishing websites using URL analysis and feature extraction techniques.',
+            more: 'https://github.com/AttractiveDog/ML_phishing_detection_model',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
-            tech: ['nextJS', 'expressJS', 'javascript', 'nodeJS', 'Firebase']
-
+            tech: ['python', 'machine learning', 'jupyter notebook', 'pandas', 'scikit-learn']
         },
         {
             title: 'Face Detctor',
@@ -211,7 +180,37 @@ export default class App extends React.Component {
             icon: this.project_icons['github'].icon,
             tech: ['python', 'tensorflow', 'open-cv', 'harcasscade']
 
-        } 
+        },
+        {
+            title: 'Social Media',
+            image: [require('./media/img.png'), require('./media/img.png'), require('./media/img.png')],
+            desc: 'It was a piece of cake for me but sometime it got stuck. But it work very effeciently.',
+            more: 'https://socialcode.vercel.app/',
+            link_title: this.project_icons['mail'].link_title,
+            icon: this.project_icons['mail'].icon,
+            tech: ['ReactJS', 'expressJS', 'javascript', 'nodeJS']
+        },
+        {
+            title: 'FPS Shooter!',
+            image: [require('./media/img.png')],
+            desc: 'This is the project was not of my busniess but when I started it attracted me and I am loving it a lot',
+            more: 'https://youtu.be/bFb7hCHSPtE',
+            link_title: this.project_icons['mail'].link_title,
+            icon: this.project_icons['mail'].icon,
+            tech: ['unity', 'C#']
+
+        },
+        {
+            title: 'Video confrencening 2.0',
+            image: [require('./media/img.png')],
+            desc: ' It took a lot of time to ehnance and add more functionality to its predecessor. Made with Next.Js',
+            more: 'https://mediacall.vercel.app/',
+            link_title: this.project_icons['github'].link_title,
+            icon: this.project_icons['github'].icon,
+            tech: ['nextJS', 'expressJS', 'javascript', 'nodeJS', 'Firebase']
+
+        }
+        
 
     ]
     
