@@ -7,12 +7,12 @@ const About = () => {
         <section id="about" className="about-section">
             <div className="about-container container to-slide up">
                 <div className="about-text">
-                    <h3>About me</h3>
-                    <p className="about-info">I am from India. I started programming for fun but it turned out to become my whole life. My key expertise is python and Javascript.</p>
+                    <h3>About Me</h3>
+                    <p className="about-info">I am a passionate software engineer from India with expertise in Python and JavaScript development. What began as a hobby has evolved into a professional pursuit, driving me to create innovative solutions and push the boundaries of technology.</p>
                     
                 </div>
                 <div className="about-photo">
-                    <img className="propic" alt="Alberto profile" src={proPic}/>
+                    <img className="propic" alt="Vedansh profile" src={proPic}/>
                 </div>
             </div>
         </section>

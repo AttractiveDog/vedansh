@@ -99,7 +99,7 @@ export default class App extends React.Component {
         {
             title: 'Raspberry Pi CCTV System',
             image: [require('./media/img.png')],
-            desc: 'A complete CCTV streaming solution using USB cameras with Python backend server and React Native mobile app for live viewing.',
+            desc: 'A comprehensive surveillance solution leveraging Raspberry Pi hardware with Python backend infrastructure and React Native mobile application for real-time video streaming and monitoring capabilities.',
             more: 'https://github.com/AttractiveDog/rpi-cctv',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
@@ -108,43 +108,43 @@ export default class App extends React.Component {
         {
             title: 'BEET - Virtual Microphone',
             image: [require('./media/img.png')],
-            desc: 'A virtual microphone and audio GUI system with Google Meet automation capabilities for TTS/STT features.',
+            desc: 'An advanced virtual microphone system with sophisticated audio processing capabilities and Google Meet integration for automated text-to-speech and speech-to-text functionality.',
             more: 'https://github.com/AttractiveDog/BEET',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
             tech: ['python', 'node.js', 'javascript', 'audio processing', 'automation']
         },
         {
-            title: 'RAG LLM Chat App',
+            title: 'RAG LLM Chat Application',
             image: [require('./media/img.png')],
-            desc: 'A Retrieval-Augmented Generation (RAG) based chat application using Large Language Models for intelligent conversations.',
+            desc: 'A sophisticated Retrieval-Augmented Generation (RAG) implementation utilizing Large Language Models to create intelligent conversational AI with enhanced contextual understanding.',
             more: 'https://github.com/AttractiveDog/rag-llm-chat-app',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
             tech: ['python', 'llm', 'rag', 'machine learning', 'chatbot']
         },
         {
-            title: 'Drowsiness Detection',
+            title: 'Driver Drowsiness Detection System',
             image: [require('./media/img.png')],
-            desc: 'A computer vision system for detecting driver drowsiness using facial recognition and eye tracking technology.',
+            desc: 'A computer vision-based safety system utilizing advanced facial recognition algorithms and eye-tracking technology to detect driver fatigue in real-time.',
             more: 'https://github.com/AttractiveDog/drowsinessDection',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
             tech: ['python', 'opencv', 'computer vision', 'facial recognition', 'dlib']
         },
         {
-            title: 'ML Phishing Detection Model',
+            title: 'Machine Learning Phishing Detection Model',
             image: [require('./media/img.png')],
-            desc: 'A machine learning model for detecting phishing websites using URL analysis and feature extraction techniques.',
+            desc: 'An intelligent machine learning model employing sophisticated URL analysis and feature extraction methodologies to identify and classify phishing websites with high accuracy.',
             more: 'https://github.com/AttractiveDog/ML_phishing_detection_model',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
             tech: ['python', 'machine learning', 'jupyter notebook', 'pandas', 'scikit-learn']
         },
         {
-            title: 'Face Detctor',
+            title: 'Advanced Face Detection System',
             image: [require('./media/img.png')],
-            desc: ' It took a lot of time to ehnance and add more functionality to its predecessor. Made with Next.Js',
+            desc: 'A comprehensive facial recognition system built with Next.js, featuring enhanced functionality and improved performance over its predecessor through extensive optimization.',
             more: 'https://youtu.be/L6Hg3dZBL80',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
@@ -152,9 +152,9 @@ export default class App extends React.Component {
 
         },
         {
-            title: 'Air Canvas',
+            title: 'Air Canvas - Gesture-Based Drawing Interface',
             image: [require('./media/img.png')],
-            desc: 'This project was the best project with Python and Open CV I have ever made. I was learning Hard',
+            desc: 'An innovative computer vision application enabling gesture-controlled digital drawing through advanced hand tracking and motion detection algorithms.',
             more: 'https://youtu.be/6rsu7PR1eWg',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
@@ -162,9 +162,9 @@ export default class App extends React.Component {
 
         }, 
         {
-            title: 'Ethereum Sending Web 3.0 Project',
+            title: 'Ethereum Blockchain Transaction System',
             image: [require('./media/img.png')],
-            desc: 'This is my first ever blockchain project for sending and receiving ethereum. It has lots of amazing stuff in the backend including Solidity language! ',
+            desc: 'A comprehensive Web 3.0 application for secure Ethereum transactions, featuring smart contract integration and advanced blockchain functionality implemented with Solidity.',
             more: 'https://deployment-for-ethereum-project.vercel.app/',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
@@ -172,9 +172,9 @@ export default class App extends React.Component {
 
         },
         {
-            title: 'Emotion-Detection',
+            title: 'Emotion Recognition System',
             image: [require('./media/img.png')],
-            desc: 'Another masterpiece of python and open-cv. But it has a lots of dealing with Tensorflow',
+            desc: 'A sophisticated facial emotion detection system leveraging TensorFlow and computer vision techniques to accurately classify human emotional states in real-time.',
             more: 'https://github.com/AttractiveDog/emotion-detection',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
@@ -182,18 +182,18 @@ export default class App extends React.Component {
 
         },
         {
-            title: 'Social Media',
+            title: 'Social Media Platform',
             image: [require('./media/img.png'), require('./media/img.png'), require('./media/img.png')],
-            desc: 'It was a piece of cake for me but sometime it got stuck. But it work very effeciently.',
+            desc: 'A full-stack social media application demonstrating efficient development practices with robust backend architecture and responsive frontend design.',
             more: 'https://socialcode.vercel.app/',
             link_title: this.project_icons['mail'].link_title,
             icon: this.project_icons['mail'].icon,
             tech: ['ReactJS', 'expressJS', 'javascript', 'nodeJS']
         },
         {
-            title: 'FPS Shooter!',
+            title: 'FPS Shooter Game',
             image: [require('./media/img.png')],
-            desc: 'This is the project was not of my busniess but when I started it attracted me and I am loving it a lot',
+            desc: 'An immersive first-person shooter game developed in Unity, showcasing advanced game development techniques and engaging user experience design.',
             more: 'https://youtu.be/bFb7hCHSPtE',
             link_title: this.project_icons['mail'].link_title,
             icon: this.project_icons['mail'].icon,
@@ -201,9 +201,9 @@ export default class App extends React.Component {
 
         },
         {
-            title: 'Video confrencening 2.0',
+            title: 'Advanced Video Conferencing Platform',
             image: [require('./media/img.png')],
-            desc: ' It took a lot of time to ehnance and add more functionality to its predecessor. Made with Next.Js',
+            desc: 'A next-generation video conferencing solution built with Next.js, featuring enhanced functionality and improved user experience over traditional platforms.',
             more: 'https://mediacall.vercel.app/',
             link_title: this.project_icons['github'].link_title,
             icon: this.project_icons['github'].icon,
