@@ -97,6 +97,15 @@ export default class App extends React.Component {
 
     projects = [ 
         {
+            title: 'Custom Bootloader and Kernel written in Assembly',
+            image: [require('./media/img.png')],
+            desc: 'A low-level operating system implementation featuring a custom bootloader and kernel written entirely in x86 assembly language, demonstrating fundamental OS concepts and hardware interaction.',
+            more: 'https://github.com/AttractiveDog/custom-os',
+            link_title: this.project_icons['github'].link_title,
+            icon: this.project_icons['github'].icon,
+            tech: ['assembly', 'x86', 'bootloader', 'kernel', 'operating system']
+        },
+        {
             title: 'Raspberry Pi CCTV System',
             image: [require('./media/img.png')],
             desc: 'A comprehensive surveillance solution leveraging Raspberry Pi hardware with Python backend infrastructure and React Native mobile application for real-time video streaming and monitoring capabilities.',
